@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Gam</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Main header section-->
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <!--Scoreboard section-->
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="computer-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Let's rock! Can you paper the scissors?!?</p>
+    </div>
+    <!--Game choices section-->
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="images/rock.png" alt="" srcset="" />
+      </div>
+      <div class="choice" id="p">
+        <img src="images/paper.png" alt="" srcset="" />
+      </div>
+      <div class="choice" id="s">
+        <img src="images/scissors.png" alt="" srcset="" />
+      </div>
+    </div>
+
+    <p id="action-message">Make your move.</p>
+    <p id="refresh-page">
+      <a href="javascript:location.reload(true)">Restart Game</a>
+    </p>
+
+    <footer>
+      <p>Oron Culzac &copy; 2020</p>
+    </footer>
+
+    <!--JS-->
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
